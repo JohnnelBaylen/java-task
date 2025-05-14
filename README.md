@@ -1,8 +1,8 @@
 # Java Learning Levels
 
-- A simple collection of Java programs categorized by difficulty level.
+A collection of Java examples organized by skill level.
 
-
-    - Beginner
-    - Intermediate
-    - Advanced
+## Levels
+- Beginner
+- Intermediate
+- Advanced
