@@ -6,6 +6,7 @@ public class Quiz {
 
         // Sample questions and answers for each category
         String[][] questions = {
+
             { // Filipino
                 "What is the national language of the Philippines?",
                 "What is 'hello' in Filipino?",
@@ -19,6 +20,7 @@ public class Quiz {
                 "What country colonized the Philippines for 333 years?"
                 
             },
+
             { // General Knowledge
                 "Who is the president of the USA in 2024?",
                 "How many continents are there?",
@@ -35,11 +37,11 @@ public class Quiz {
 
         };
 
-        System.out.println("Welcome to Test Think!");
+        System.out.println("Welcome to Test Think.\n");
         System.out.println("Choose a category : ");
         System.out.println("1. Filipino");
         System.out.println("2. History");
-        System.out.println("3. General Knowledge");
+        System.out.println("3. General \n");
         System.out.print("Enter your choice (1-3): ");
 
         int choice = q.nextInt();
@@ -50,10 +52,10 @@ public class Quiz {
             return;
         }
 
-        int score = 0;
-        int categoryIndex = choice - 1;
+        int score = 0, categoryIndex = choice - 1;
 
         for (int i = 0; i < questions[categoryIndex].length; i++) {
+
             System.out.println("Q" + (i + 1) + ": " + questions[categoryIndex][i]);
             System.out.print("> ");
             String userAnswer = q.nextLine().toLowerCase();
